@@ -1,0 +1,22 @@
+category,text,expected_canonicals,must_not_match,reason
+ai_positive,AI Engineer position open.,Artificial Intelligence,,audited AI title pattern
+ai_negative,The main point is available in the appendix.,,Artificial Intelligence,lowercase ai inside unrelated word/text must not match
+ia_positive,Poste en IA et machine learning.,Artificial Intelligence,,audited French IA with ML context
+ia_negative,J'ai d?velopp? des mod?les d'IA.,,Artificial Intelligence,apostrophe boundary should block IA
+chef_positive,Automate infrastructure with Chef recipes.,Chef,,genuine Chef configuration management tool
+chef_negative,Chef de Projet Data Scientist,,Chef,French managerial title from audit
+chef_negative,Sous l'autorit? du chef de projet en charge.,,Chef,French managerial description from audit
+ml_positive,Senior Data Scientist / ML Engineer,Machine Learning,,audited ML engineering title
+ml_negative,Ce poste est calme et autonome.,,Machine Learning,lowercase ml substring must not match
+bi_positive,Lead Data Scientist - BI Prediction,Business Intelligence,,audited BI title
+bi_negative,Nous cherchons une personne bienveillante.,,Business Intelligence,lowercase bi substring must not match
+c_positive,Core product in C/C++ and Python.,C;C++;Python,,audited C/C++ technical context
+c_negative,C'est une entreprise innovante.,,C,French elision boundary should block C
+sap_positive,Consultant SAP BW data platform.,SAP,,audited SAP context
+sap_negative,Une sape ancienne dans le processus.,,SAP,lowercase sap substring must not match
+gcp_positive,Cloud GCP / Vertex AI platform.,GCP;Google Vertex AI,,audited GCP and Vertex AI cloud context
+rag_positive,"Projects around LLM, RAG and modern AI architectures.",Artificial Intelligence;Large Language Models;Retrieval-Augmented Generation,,audited RAG/LLM context
+llm_positive,Orientation LLM pour mod?les de langage.,Large Language Models,,audited LLM language-model context
+role_positive,Data Scientist - Freelance,Data Science,,zero-skill audit role-title gap
+role_positive,Machine Learning Engineer,Machine Learning,,role title strongly implies ML domain
+role_positive,AI Engineer F/H,Artificial Intelligence,,role title strongly implies AI domain

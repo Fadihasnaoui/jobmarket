@@ -1,0 +1,16 @@
+[
+  {
+    "legal": "Remote OK is a remote job board."
+  },
+  {
+    "id": "900001",
+    "company": "Example Corp Ltd",
+    "position": "Backend Developer",
+    "description": "<p>Build APIs with Python and PostgreSQL.</p>",
+    "location": "Worldwide",
+    "salary_min": "80000",
+    "salary_max": "120000",
+    "epoch": "1710000000",
+    "url": "https://remoteok.com/jobs/900001"
+  }
+]

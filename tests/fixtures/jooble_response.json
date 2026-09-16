@@ -1,0 +1,17 @@
+{
+  "totalCount": 1,
+  "jobs": [
+    {
+      "id": "jooble-9001",
+      "title": "Machine Learning Engineer",
+      "company": "Tech Solutions GmbH",
+      "location": "Berlin, Germany",
+      "snippet": "Train and deploy ML models for production workloads.",
+      "salary": "€70,000 - €90,000",
+      "type": "Full-time",
+      "link": "https://example.com/jobs/ml-engineer-9001",
+      "updated": "2024-04-01T08:00:00",
+      "source": "example-board"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: jobmarket-postgres
+    environment:
+      POSTGRES_USER: jobmarket
+      POSTGRES_PASSWORD: jobmarket
+      POSTGRES_DB: jobmarket
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init_pgvector.sql:/docker-entrypoint-initdb.d/01_pgvector.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jobmarket -d jobmarket"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jobmarket-api
+    env_file:
+      - .env
+    environment:
+      # Inside the compose network the API reaches Postgres by service name, not
+      # localhost — .env's values (correct for host-based dev) are overridden here.
+      DATABASE_URL: postgresql+asyncpg://jobmarket:jobmarket@postgres:5432/jobmarket
+      DATABASE_URL_SYNC: postgresql+psycopg://jobmarket:jobmarket@postgres:5432/jobmarket
+    ports:
+      - "8123:8123"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      # Generous window: first boot runs migrations, skills sync, and (if the jobs
+      # table is empty) restores an ~84MB seed dump before uvicorn ever starts
+      # listening — see scripts/docker-entrypoint.sh.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8123/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        # Browser-facing URL — the browser calls this directly, never through the
+        # compose network, so it must be the host-published api port, not "api:8123".
+        VITE_API_BASE_URL: http://localhost:8123
+    container_name: jobmarket-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

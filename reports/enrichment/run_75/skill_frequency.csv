@@ -1,0 +1,162 @@
+metric,key,secondary_key,job_count,skill_rows,rate
+top_canonical_skill,Artificial Intelligence,,475,475,0.0
+top_canonical_skill,Machine Learning,,163,163,0.0
+top_canonical_skill,Data Science,,111,111,0.0
+top_canonical_skill,Generative AI,,89,89,0.0
+top_canonical_skill,Digital Transformation,,59,59,0.0
+top_canonical_skill,Python,,50,50,0.0
+top_canonical_skill,Large Language Models,,49,49,0.0
+top_canonical_skill,Data Engineering,,41,41,0.0
+top_canonical_skill,Agentic AI,,39,39,0.0
+top_canonical_skill,Chef,,37,37,0.0
+top_canonical_skill,Agile,,30,30,0.0
+top_canonical_skill,Business Intelligence,,29,29,0.0
+top_canonical_skill,Deep Learning,,25,25,0.0
+top_canonical_skill,DevOps,,23,23,0.0
+top_canonical_skill,GCP,,23,23,0.0
+top_canonical_skill,Product Management,,21,21,0.0
+top_canonical_skill,Supply Chain Management,,21,21,0.0
+top_canonical_skill,Big Data,,20,20,0.0
+top_canonical_skill,Natural Language Processing,,18,18,0.0
+top_canonical_skill,Computer Vision,,17,17,0.0
+top_canonical_skill,Java,,17,17,0.0
+top_canonical_skill,Cybersecurity,,16,16,0.0
+top_canonical_skill,Retrieval-Augmented Generation,,16,16,0.0
+top_canonical_skill,Azure,,15,15,0.0
+top_canonical_skill,E-commerce,,15,15,0.0
+top_canonical_skill,Information Systems,,15,15,0.0
+top_canonical_skill,MLOps,,15,15,0.0
+top_canonical_skill,Angular,,14,14,0.0
+top_canonical_skill,Full Stack Development,,13,13,0.0
+top_canonical_skill,AWS,,12,12,0.0
+top_matched_alias,ia,Artificial Intelligence,218,218,0.0
+top_matched_alias,ai,Artificial Intelligence,198,198,0.0
+top_matched_alias,Machine Learning,Machine Learning,135,135,0.0
+top_matched_alias,Data Science,Data Science,108,108,0.0
+top_matched_alias,intelligence artificielle,Artificial Intelligence,52,52,0.0
+top_matched_alias,transformation digitale,Digital Transformation,52,52,0.0
+top_matched_alias,ia générative,Generative AI,51,51,0.0
+top_matched_alias,Python,Python,50,50,0.0
+top_matched_alias,Chef,Chef,37,37,0.0
+top_matched_alias,llm,Large Language Models,34,34,0.0
+top_matched_alias,ml,Machine Learning,26,26,0.0
+top_matched_alias,Deep Learning,Deep Learning,25,25,0.0
+top_matched_alias,Agile,Agile,24,24,0.0
+top_matched_alias,DevOps,DevOps,23,23,0.0
+top_matched_alias,bi,Business Intelligence,22,22,0.0
+top_matched_alias,ingénieur data,Data Engineering,22,22,0.0
+top_matched_alias,supply chain,Supply Chain Management,21,21,0.0
+top_matched_alias,Big Data,Big Data,20,20,0.0
+top_matched_alias,GCP,GCP,19,19,0.0
+top_matched_alias,Java,Java,17,17,0.0
+top_matched_alias,genai,Generative AI,16,16,0.0
+top_matched_alias,Generative AI,Generative AI,16,16,0.0
+top_matched_alias,product owner,Product Management,16,16,0.0
+top_matched_alias,rag,Retrieval-Augmented Generation,16,16,0.0
+top_matched_alias,Agentic AI,Agentic AI,15,15,0.0
+top_matched_alias,Azure,Azure,15,15,0.0
+top_matched_alias,Data Engineering,Data Engineering,15,15,0.0
+top_matched_alias,nlp,Natural Language Processing,15,15,0.0
+top_matched_alias,Angular,Angular,14,14,0.0
+top_matched_alias,Computer Vision,Computer Vision,14,14,0.0
+skill_by_source,adzuna,Artificial Intelligence,475,566,0.0
+skill_by_source,adzuna,Machine Learning,163,213,0.0
+skill_by_source,adzuna,Data Science,111,130,0.0
+skill_by_source,adzuna,Generative AI,89,132,0.0
+skill_by_source,adzuna,Digital Transformation,59,75,0.0
+skill_by_source,adzuna,Python,50,91,0.0
+skill_by_source,adzuna,Large Language Models,49,55,0.0
+skill_by_source,adzuna,Data Engineering,41,44,0.0
+skill_by_source,adzuna,Agentic AI,39,44,0.0
+skill_by_source,adzuna,Chef,37,42,0.0
+skill_by_source,adzuna,Agile,30,33,0.0
+skill_by_source,adzuna,Business Intelligence,29,30,0.0
+skill_by_source,adzuna,Deep Learning,25,63,0.0
+skill_by_source,adzuna,DevOps,23,24,0.0
+skill_by_source,adzuna,GCP,23,25,0.0
+skill_by_source,adzuna,Product Management,21,29,0.0
+skill_by_source,adzuna,Supply Chain Management,21,21,0.0
+skill_by_source,adzuna,Big Data,20,26,0.0
+skill_by_source,adzuna,Natural Language Processing,18,25,0.0
+skill_by_source,adzuna,Computer Vision,17,21,0.0
+skill_by_source,adzuna,Java,17,19,0.0
+skill_by_source,adzuna,Cybersecurity,16,18,0.0
+skill_by_source,adzuna,Retrieval-Augmented Generation,16,18,0.0
+skill_by_source,adzuna,Azure,15,17,0.0
+skill_by_source,adzuna,E-commerce,15,17,0.0
+skill_by_source,adzuna,Information Systems,15,19,0.0
+skill_by_source,adzuna,MLOps,15,16,0.0
+skill_by_source,adzuna,Angular,14,14,0.0
+skill_by_source,adzuna,Full Stack Development,13,13,0.0
+skill_by_source,adzuna,AWS,12,12,0.0
+skill_by_country,fr,Artificial Intelligence,475,475,0.0
+skill_by_country,fr,Machine Learning,163,163,0.0
+skill_by_country,fr,Data Science,111,111,0.0
+skill_by_country,fr,Generative AI,89,89,0.0
+skill_by_country,fr,Digital Transformation,59,59,0.0
+skill_by_country,fr,Python,50,50,0.0
+skill_by_country,fr,Large Language Models,49,49,0.0
+skill_by_country,fr,Data Engineering,41,41,0.0
+skill_by_country,fr,Agentic AI,39,39,0.0
+skill_by_country,fr,Chef,37,37,0.0
+skill_by_country,fr,Agile,30,30,0.0
+skill_by_country,fr,Business Intelligence,29,29,0.0
+skill_by_country,fr,Deep Learning,25,25,0.0
+skill_by_country,fr,DevOps,23,23,0.0
+skill_by_country,fr,GCP,23,23,0.0
+skill_by_country,fr,Product Management,21,21,0.0
+skill_by_country,fr,Supply Chain Management,21,21,0.0
+skill_by_country,fr,Big Data,20,20,0.0
+skill_by_country,fr,Natural Language Processing,18,18,0.0
+skill_by_country,fr,Computer Vision,17,17,0.0
+skill_by_country,fr,Java,17,17,0.0
+skill_by_country,fr,Cybersecurity,16,16,0.0
+skill_by_country,fr,Retrieval-Augmented Generation,16,16,0.0
+skill_by_country,fr,Azure,15,15,0.0
+skill_by_country,fr,E-commerce,15,15,0.0
+skill_by_country,fr,Information Systems,15,15,0.0
+skill_by_country,fr,MLOps,15,15,0.0
+skill_by_country,fr,Angular,14,14,0.0
+skill_by_country,fr,Full Stack Development,13,13,0.0
+skill_by_country,fr,AWS,12,12,0.0
+zero_skill_rate_by_source,adzuna,,223,0,0.223
+zero_skill_rate_by_country,fr,,223,0,0.223
+skill_count_distribution,0,,223,0,0.0
+skill_count_distribution,1,,292,0,0.0
+skill_count_distribution,2,,242,0,0.0
+skill_count_distribution,3,,120,0,0.0
+skill_count_distribution,4,,60,0,0.0
+skill_count_distribution,5,,32,0,0.0
+skill_count_distribution,6,,10,0,0.0
+skill_count_distribution,7,,6,0,0.0
+skill_count_distribution,8,,6,0,0.0
+skill_count_distribution,9,,2,0,0.0
+skill_count_distribution,10,,1,0,0.0
+skill_count_distribution,11,,1,0,0.0
+skill_count_distribution,12,,3,0,0.0
+skill_count_distribution,17,,2,0,0.0
+unusually_high_skill_job,557,,17,0,0.0
+unusually_high_skill_job,708,,17,0,0.0
+unusually_high_skill_job,540,,12,0,0.0
+unusually_high_skill_job,794,,12,0,0.0
+unusually_high_skill_job,1112,,12,0,0.0
+unusually_high_skill_job,404,,11,0,0.0
+unusually_high_skill_job,544,,10,0,0.0
+unusually_high_skill_job,408,,9,0,0.0
+unusually_high_skill_job,1113,,9,0,0.0
+unusually_high_skill_job,384,,8,0,0.0
+unusually_high_skill_job,422,,8,0,0.0
+unusually_high_skill_job,473,,8,0,0.0
+unusually_high_skill_job,729,,8,0,0.0
+unusually_high_skill_job,730,,8,0,0.0
+unusually_high_skill_job,843,,8,0,0.0
+unusually_high_skill_job,425,,7,0,0.0
+unusually_high_skill_job,435,,7,0,0.0
+unusually_high_skill_job,525,,7,0,0.0
+unusually_high_skill_job,731,,7,0,0.0
+unusually_high_skill_job,990,,7,0,0.0
+unusually_high_skill_job,1136,,7,0,0.0
+unusually_high_skill_job,359,,6,0,0.0
+unusually_high_skill_job,403,,6,0,0.0
+unusually_high_skill_job,412,,6,0,0.0
+unusually_high_skill_job,474,,6,0,0.0

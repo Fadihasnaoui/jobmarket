@@ -1,0 +1,84 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jobmarket"
+version = "0.1.0"
+description = "Job market data ingestion and parsing pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.13",
+    "asyncpg>=0.29",
+    "fastapi>=0.110",
+    "ftfy>=6.2",
+    "httpx>=0.27",
+    "openai>=1.0",
+    "psycopg[binary]>=3.1",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "pypdf>=4.0",
+    "python-docx>=1.1",
+    "python-dotenv>=1.0",
+    "python-multipart>=0.0.9",
+    "sentence-transformers>=3.0",
+    "pyyaml>=6.0",
+    "sqlalchemy[asyncio]>=2.0",
+    "structlog>=24.0",
+    "typer>=0.12",
+    "uvicorn>=0.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.8",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "respx>=0.21",
+    "ruff>=0.3",
+    "types-pyyaml>=6.0",
+]
+notebook = [
+    "ipykernel>=6.29",
+    "lime>=0.2.0.1",
+    "langdetect>=1.0.9",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+]
+
+[project.scripts]
+jobmarket = "jobmarket.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jobmarket"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# FastAPI's dependency-injection pattern requires Depends()/Query() as argument
+# defaults — that's the documented, idiomatic usage, not the mutable-default-argument
+# bug B008 exists to catch.
+"src/jobmarket/api/*.py" = ["B008"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "src"
+packages = ["jobmarket"]
+
+[[tool.mypy.overrides]]
+module = ["alembic.*"]
+ignore_missing_imports = true

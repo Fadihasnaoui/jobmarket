@@ -1,0 +1,18 @@
+{
+  "id": "4829103746",
+  "title": "Senior Data Scientist (m/f/d)",
+  "description": "<p>Build production ML models.</p><p>Strong Python required.</p>",
+  "company": {
+    "display_name": "Acme Analytics SARL"
+  },
+  "location": {
+    "display_name": "Paris, France",
+    "area": ["France", "Paris"]
+  },
+  "salary_min": 50000,
+  "salary_max": 65000,
+  "salary_is_predicted": "1",
+  "contract_time": "full_time",
+  "created": "2024-03-15T10:00:00Z",
+  "redirect_url": "https://example.com/jobs/adzuna-4829103746"
+}

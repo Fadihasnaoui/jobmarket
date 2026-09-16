@@ -1,0 +1,1944 @@
+- canonical: Python
+  category: language
+  aliases:
+  - python3
+  - python 3
+  - py
+  - python 3.x
+  - python3.x
+  parent: null
+- canonical: Java
+  category: language
+  aliases: []
+  parent: null
+- canonical: JavaScript
+  category: language
+  aliases:
+  - js
+  - java script
+  - ecmascript
+  - es6
+  - es2015+
+  parent: null
+- canonical: TypeScript
+  category: language
+  aliases:
+  - ts
+  parent: null
+- canonical: C
+  category: language
+  aliases:
+  - langage c
+  parent: null
+- canonical: C++
+  category: language
+  aliases:
+  - cpp
+  - cplusplus
+  - c plus plus
+  parent: null
+- canonical: C#
+  category: language
+  aliases:
+  - csharp
+  - c sharp
+  parent: null
+- canonical: Go
+  category: language
+  aliases:
+  - golang
+  parent: null
+- canonical: Rust
+  category: language
+  aliases: []
+  parent: null
+- canonical: PHP
+  category: language
+  aliases: []
+  parent: null
+- canonical: Ruby
+  category: language
+  aliases: []
+  parent: null
+- canonical: Scala
+  category: language
+  aliases: []
+  parent: null
+- canonical: Kotlin
+  category: language
+  aliases: []
+  parent: null
+- canonical: Swift
+  category: language
+  aliases: []
+  parent: null
+- canonical: SQL
+  category: language
+  aliases:
+  - requêtes sql
+  - langage sql
+  parent: null
+- canonical: R
+  category: language
+  aliases:
+  - langage r
+  - r studio
+  - rstudio
+  parent: null
+- canonical: Bash
+  category: language
+  aliases:
+  - shell
+  - shell scripting
+  - bash scripting
+  - scripts shell
+  parent: null
+- canonical: PowerShell
+  category: language
+  aliases:
+  - power shell
+  parent: null
+- canonical: Perl
+  category: language
+  aliases: []
+  parent: null
+- canonical: MATLAB
+  category: language
+  aliases: []
+  parent: null
+- canonical: VBA
+  category: language
+  aliases:
+  - visual basic for applications
+  - visual basic
+  parent: null
+- canonical: SAS
+  category: language
+  aliases: []
+  parent: null
+- canonical: Dart
+  category: language
+  aliases: []
+  parent: null
+- canonical: Objective-C
+  category: language
+  aliases:
+  - objective c
+  - objc
+  parent: null
+- canonical: Julia
+  category: language
+  aliases: []
+  parent: null
+- canonical: HTML
+  category: language
+  aliases:
+  - html5
+  parent: null
+- canonical: CSS
+  category: language
+  aliases:
+  - css3
+  parent: null
+- canonical: COBOL
+  category: language
+  aliases: []
+  parent: null
+- canonical: Groovy
+  category: language
+  aliases: []
+  parent: null
+- canonical: Elixir
+  category: language
+  aliases: []
+  parent: null
+- canonical: Erlang
+  category: language
+  aliases: []
+  parent: null
+- canonical: Haskell
+  category: language
+  aliases: []
+  parent: null
+- canonical: Lua
+  category: language
+  aliases: []
+  parent: null
+- canonical: F#
+  category: language
+  aliases:
+  - f sharp
+  - fsharp
+  parent: null
+- canonical: Assembly
+  category: language
+  aliases:
+  - assembly language
+  - assembleur
+  parent: null
+- canonical: Django
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Flask
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: FastAPI
+  category: framework
+  aliases:
+  - fast-api
+  - fast api
+  parent: Python
+- canonical: Pandas
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: NumPy
+  category: framework
+  aliases:
+  - numpy
+  parent: Python
+- canonical: Scikit-learn
+  category: framework
+  aliases:
+  - sklearn
+  - scikit learn
+  parent: Python
+- canonical: TensorFlow
+  category: framework
+  aliases:
+  - tensor-flow
+  parent: null
+- canonical: PyTorch
+  category: framework
+  aliases:
+  - torch
+  - py torch
+  parent: null
+- canonical: Keras
+  category: framework
+  aliases: []
+  parent: null
+- canonical: Hugging Face Transformers
+  category: framework
+  aliases:
+  - hugging face
+  - huggingface
+  - transformers
+  parent: null
+- canonical: LangChain
+  category: framework
+  aliases:
+  - lang chain
+  parent: null
+- canonical: Spring
+  category: framework
+  aliases:
+  - spring boot
+  - springboot
+  - spring framework
+  parent: Java
+- canonical: React
+  category: framework
+  aliases:
+  - react.js
+  - reactjs
+  - react js
+  parent: JavaScript
+- canonical: Angular
+  category: framework
+  aliases:
+  - angular.js
+  - angularjs
+  parent: TypeScript
+- canonical: Vue.js
+  category: framework
+  aliases:
+  - vuejs
+  - vue js
+  - vue
+  parent: JavaScript
+- canonical: Next.js
+  category: framework
+  aliases:
+  - nextjs
+  - next js
+  parent: React
+- canonical: Node.js
+  category: framework
+  aliases:
+  - nodejs
+  - node js
+  - node
+  parent: JavaScript
+- canonical: Express.js
+  category: framework
+  aliases:
+  - expressjs
+  - express js
+  - express
+  parent: Node.js
+- canonical: NestJS
+  category: framework
+  aliases:
+  - nest.js
+  - nest js
+  parent: Node.js
+- canonical: .NET
+  category: framework
+  aliases:
+  - dotnet
+  - asp.net
+  - aspnet
+  - .net core
+  - dot net
+  parent: C#
+- canonical: Laravel
+  category: framework
+  aliases: []
+  parent: PHP
+- canonical: Symfony
+  category: framework
+  aliases: []
+  parent: PHP
+- canonical: Ruby on Rails
+  category: framework
+  aliases:
+  - rails
+  - ruby on rails
+  parent: Ruby
+- canonical: jQuery
+  category: framework
+  aliases: []
+  parent: JavaScript
+- canonical: Bootstrap
+  category: framework
+  aliases: []
+  parent: null
+- canonical: Tailwind CSS
+  category: framework
+  aliases:
+  - tailwind
+  - tailwindcss
+  parent: null
+- canonical: GraphQL
+  category: framework
+  aliases: []
+  parent: null
+- canonical: Redux
+  category: framework
+  aliases: []
+  parent: React
+- canonical: Apache Spark
+  category: framework
+  aliases:
+  - spark
+  - pyspark
+  - spark sql
+  parent: null
+- canonical: Apache Hadoop
+  category: framework
+  aliases:
+  - hadoop
+  - hdfs
+  parent: null
+- canonical: Apache Kafka
+  category: framework
+  aliases:
+  - kafka
+  parent: null
+- canonical: Apache Airflow
+  category: framework
+  aliases:
+  - airflow
+  parent: null
+- canonical: dbt
+  category: framework
+  aliases:
+  - data build tool
+  parent: null
+- canonical: Apache Flink
+  category: framework
+  aliases:
+  - flink
+  parent: null
+- canonical: Streamlit
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: XGBoost
+  category: framework
+  aliases:
+  - xg boost
+  parent: null
+- canonical: Selenium
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Cypress
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Playwright
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Jest
+  category: framework
+  aliases: []
+  parent: JavaScript
+- canonical: Mocha
+  category: framework
+  aliases: []
+  parent: JavaScript
+- canonical: RSpec
+  category: framework
+  aliases:
+  - r spec
+  parent: Ruby
+- canonical: PHPUnit
+  category: framework
+  aliases:
+  - php unit
+  parent: PHP
+- canonical: Svelte
+  category: framework
+  aliases: []
+  parent: JavaScript
+- canonical: Gatsby
+  category: framework
+  aliases: []
+  parent: React
+- canonical: Remix
+  category: framework
+  aliases: []
+  parent: React
+- canonical: Blazor
+  category: framework
+  aliases: []
+  parent: .NET
+- canonical: Hibernate
+  category: framework
+  aliases: []
+  parent: Java
+- canonical: Micronaut
+  category: framework
+  aliases: []
+  parent: Java
+- canonical: Quarkus
+  category: framework
+  aliases: []
+  parent: Java
+- canonical: Celery
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Apache Beam
+  category: framework
+  aliases:
+  - beam
+  parent: null
+- canonical: MLflow
+  category: framework
+  aliases:
+  - ml flow
+  parent: null
+- canonical: Ray
+  category: framework
+  aliases: []
+  parent: null
+- canonical: LightGBM
+  category: framework
+  aliases:
+  - light gbm
+  parent: null
+- canonical: CatBoost
+  category: framework
+  aliases:
+  - cat boost
+  parent: null
+- canonical: OpenCV
+  category: framework
+  aliases:
+  - open cv
+  parent: null
+- canonical: spaCy
+  category: framework
+  aliases:
+  - spacy
+  parent: Python
+- canonical: NLTK
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Plotly
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Matplotlib
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Seaborn
+  category: framework
+  aliases: []
+  parent: Python
+- canonical: Git
+  category: tool
+  aliases: []
+  parent: null
+- canonical: GitHub
+  category: tool
+  aliases:
+  - github actions
+  - git hub
+  parent: null
+- canonical: GitLab
+  category: tool
+  aliases:
+  - gitlab ci
+  - git lab
+  parent: null
+- canonical: Docker
+  category: tool
+  aliases:
+  - dockerized
+  - docker compose
+  - docker-compose
+  parent: null
+- canonical: Kubernetes
+  category: tool
+  aliases:
+  - k8s
+  parent: null
+- canonical: Jenkins
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Terraform
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Ansible
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Puppet
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Chef
+  category: tool
+  aliases: []
+  parent: null
+- canonical: CircleCI
+  category: tool
+  aliases:
+  - circle ci
+  parent: null
+- canonical: Jira
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Confluence
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Postman
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Grafana
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Prometheus
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Splunk
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Elasticsearch
+  category: tool
+  aliases:
+  - elastic search
+  - elastic
+  parent: null
+- canonical: Kibana
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Logstash
+  category: tool
+  aliases: []
+  parent: null
+- canonical: ELK Stack
+  category: tool
+  aliases:
+  - elk
+  - elastic stack
+  parent: null
+- canonical: Talend
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Power BI
+  category: tool
+  aliases:
+  - powerbi
+  - power-bi
+  parent: null
+- canonical: Tableau
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Looker
+  category: tool
+  aliases:
+  - looker studio
+  parent: null
+- canonical: Qlik
+  category: tool
+  aliases:
+  - qlik sense
+  - qlikview
+  parent: null
+- canonical: Metabase
+  category: tool
+  aliases: []
+  parent: null
+- canonical: JUnit
+  category: tool
+  aliases: []
+  parent: Java
+- canonical: SonarQube
+  category: tool
+  aliases:
+  - sonar qube
+  - sonar
+  parent: null
+- canonical: HashiCorp Vault
+  category: tool
+  aliases:
+  - vault
+  parent: null
+- canonical: Nginx
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Apache HTTP Server
+  category: tool
+  aliases:
+  - apache server
+  - apache httpd
+  parent: null
+- canonical: Excel
+  category: tool
+  aliases:
+  - microsoft excel
+  - excel avancé
+  - tableaux croisés dynamiques
+  parent: null
+- canonical: Figma
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Datadog
+  category: tool
+  aliases: []
+  parent: null
+- canonical: New Relic
+  category: tool
+  aliases:
+  - newrelic
+  parent: null
+- canonical: Postgres Admin Tools
+  category: tool
+  aliases:
+  - pgadmin
+  parent: null
+- canonical: DBT Cloud
+  category: tool
+  aliases: []
+  parent: dbt
+- canonical: Helm
+  category: tool
+  aliases: []
+  parent: Kubernetes
+- canonical: Istio
+  category: tool
+  aliases: []
+  parent: Kubernetes
+- canonical: Argo CD
+  category: tool
+  aliases:
+  - argocd
+  - argo cd
+  parent: Kubernetes
+- canonical: Rancher
+  category: tool
+  aliases: []
+  parent: null
+- canonical: OpenShift
+  category: tool
+  aliases:
+  - open shift
+  parent: null
+- canonical: Packer
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Vagrant
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Consul
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Nomad
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Trello
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Asana
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Monday.com
+  category: tool
+  aliases:
+  - monday.com
+  - monday
+  parent: null
+- canonical: Zendesk
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Snyk
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Qualys
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Nessus
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Wireshark
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Burp Suite
+  category: tool
+  aliases:
+  - burpsuite
+  parent: null
+- canonical: Metasploit
+  category: tool
+  aliases: []
+  parent: null
+- canonical: OWASP ZAP
+  category: tool
+  aliases:
+  - zap
+  - owasp
+  parent: null
+- canonical: CrowdStrike
+  category: tool
+  aliases: []
+  parent: null
+- canonical: PagerDuty
+  category: tool
+  aliases:
+  - pager duty
+  parent: null
+- canonical: Opsgenie
+  category: tool
+  aliases:
+  - ops genie
+  parent: null
+- canonical: Zabbix
+  category: tool
+  aliases: []
+  parent: null
+- canonical: Nagios
+  category: tool
+  aliases: []
+  parent: null
+- canonical: SolarWinds
+  category: tool
+  aliases:
+  - solar winds
+  parent: null
+- canonical: Linux
+  category: platform
+  aliases:
+  - unix
+  parent: null
+- canonical: Windows Server
+  category: platform
+  aliases: []
+  parent: null
+- canonical: macOS
+  category: platform
+  aliases:
+  - mac os
+  parent: null
+- canonical: SAP
+  category: platform
+  aliases:
+  - sap erp
+  - sap hana
+  - sap s/4hana
+  parent: null
+- canonical: Murex
+  category: platform
+  aliases:
+  - murex mx.3
+  - mx.3
+  parent: null
+- canonical: Salesforce
+  category: platform
+  aliases: []
+  parent: null
+- canonical: ServiceNow
+  category: platform
+  aliases:
+  - service now
+  parent: null
+- canonical: SharePoint
+  category: platform
+  aliases:
+  - share point
+  parent: null
+- canonical: VMware
+  category: platform
+  aliases:
+  - vm ware
+  parent: null
+- canonical: PrestaShop
+  category: platform
+  aliases:
+  - presta shop
+  parent: null
+- canonical: Shopify
+  category: platform
+  aliases: []
+  parent: null
+- canonical: WordPress
+  category: platform
+  aliases:
+  - word press
+  parent: null
+- canonical: Magento
+  category: platform
+  aliases: []
+  parent: null
+- canonical: Databricks
+  category: platform
+  aliases: []
+  parent: null
+- canonical: SAP BW
+  category: platform
+  aliases:
+  - business warehouse
+  parent: SAP
+- canonical: Odoo
+  category: platform
+  aliases: []
+  parent: null
+- canonical: Sage
+  category: platform
+  aliases:
+  - sage erp
+  - sage comptabilité
+  parent: null
+- canonical: Cegid
+  category: platform
+  aliases: []
+  parent: null
+- canonical: Dolibarr
+  category: platform
+  aliases: []
+  parent: null
+- canonical: HubSpot
+  category: platform
+  aliases:
+  - hub spot
+  parent: null
+- canonical: Adobe Experience Manager
+  category: platform
+  aliases:
+  - aem
+  parent: null
+- canonical: Contentful
+  category: platform
+  aliases: []
+  parent: null
+- canonical: Drupal
+  category: platform
+  aliases: []
+  parent: null
+- canonical: PostgreSQL
+  category: database
+  aliases:
+  - postgres
+  - psql
+  - postgresql
+  parent: null
+- canonical: MySQL
+  category: database
+  aliases: []
+  parent: null
+- canonical: MariaDB
+  category: database
+  aliases: []
+  parent: null
+- canonical: MongoDB
+  category: database
+  aliases:
+  - mongo
+  parent: null
+- canonical: Redis
+  category: database
+  aliases: []
+  parent: null
+- canonical: Oracle Database
+  category: database
+  aliases:
+  - oracle db
+  - oracle sql
+  - base oracle
+  parent: null
+- canonical: Microsoft SQL Server
+  category: database
+  aliases:
+  - sql server
+  - mssql
+  - sql-server
+  parent: null
+- canonical: SQLite
+  category: database
+  aliases: []
+  parent: null
+- canonical: Cassandra
+  category: database
+  aliases:
+  - apache cassandra
+  parent: null
+- canonical: Snowflake
+  category: database
+  aliases: []
+  parent: null
+- canonical: Google BigQuery
+  category: database
+  aliases:
+  - bigquery
+  - big query
+  parent: null
+- canonical: Amazon Redshift
+  category: database
+  aliases:
+  - redshift
+  parent: null
+- canonical: Neo4j
+  category: database
+  aliases: []
+  parent: null
+- canonical: Amazon DynamoDB
+  category: database
+  aliases:
+  - dynamodb
+  - dynamo db
+  parent: null
+- canonical: InfluxDB
+  category: database
+  aliases:
+  - influx db
+  parent: null
+- canonical: ClickHouse
+  category: database
+  aliases:
+  - click house
+  parent: null
+- canonical: Couchbase
+  category: database
+  aliases: []
+  parent: null
+- canonical: Teradata
+  category: database
+  aliases: []
+  parent: null
+- canonical: Firebase
+  category: database
+  aliases:
+  - firestore
+  parent: null
+- canonical: Supabase
+  category: database
+  aliases: []
+  parent: null
+- canonical: CockroachDB
+  category: database
+  aliases:
+  - cockroach db
+  parent: null
+- canonical: Amazon Aurora
+  category: database
+  aliases:
+  - aurora
+  parent: AWS
+- canonical: Google Cloud Spanner
+  category: database
+  aliases:
+  - spanner
+  parent: GCP
+- canonical: HBase
+  category: database
+  aliases:
+  - h base
+  parent: null
+- canonical: Memcached
+  category: database
+  aliases: []
+  parent: null
+- canonical: Vertica
+  category: database
+  aliases: []
+  parent: null
+- canonical: AWS
+  category: cloud
+  aliases:
+  - amazon web services
+  - amazon aws
+  parent: null
+- canonical: Amazon EC2
+  category: cloud
+  aliases:
+  - ec2
+  parent: AWS
+- canonical: Amazon S3
+  category: cloud
+  aliases:
+  - s3
+  parent: AWS
+- canonical: AWS Lambda
+  category: cloud
+  aliases:
+  - lambda
+  parent: AWS
+- canonical: Amazon RDS
+  category: cloud
+  aliases:
+  - rds
+  parent: AWS
+- canonical: Amazon SageMaker
+  category: cloud
+  aliases:
+  - sagemaker
+  - sage maker
+  parent: AWS
+- canonical: Azure
+  category: cloud
+  aliases:
+  - microsoft azure
+  parent: null
+- canonical: Azure DevOps
+  category: cloud
+  aliases:
+  - azure devops
+  parent: Azure
+- canonical: Azure Functions
+  category: cloud
+  aliases: []
+  parent: Azure
+- canonical: Azure Machine Learning
+  category: cloud
+  aliases:
+  - azure ml
+  parent: Azure
+- canonical: GCP
+  category: cloud
+  aliases:
+  - google cloud
+  - google cloud platform
+  parent: null
+- canonical: Google Vertex AI
+  category: cloud
+  aliases:
+  - vertex ai
+  - vertexai
+  parent: GCP
+- canonical: OVHcloud
+  category: cloud
+  aliases:
+  - ovh cloud
+  - ovh
+  parent: null
+- canonical: Scaleway
+  category: cloud
+  aliases: []
+  parent: null
+- canonical: IBM Cloud
+  category: cloud
+  aliases: []
+  parent: null
+- canonical: DigitalOcean
+  category: cloud
+  aliases:
+  - digital ocean
+  parent: null
+- canonical: Heroku
+  category: cloud
+  aliases: []
+  parent: null
+- canonical: Cloudflare
+  category: cloud
+  aliases: []
+  parent: null
+- canonical: Amazon ECS
+  category: cloud
+  aliases:
+  - ecs
+  parent: AWS
+- canonical: Amazon EKS
+  category: cloud
+  aliases:
+  - eks
+  parent: AWS
+- canonical: AWS CloudFormation
+  category: cloud
+  aliases:
+  - cloudformation
+  - cloud formation
+  parent: AWS
+- canonical: AWS IAM
+  category: cloud
+  aliases: []
+  parent: AWS
+- canonical: Amazon CloudWatch
+  category: cloud
+  aliases:
+  - cloudwatch
+  parent: AWS
+- canonical: Azure SQL Database
+  category: cloud
+  aliases:
+  - azure sql
+  parent: Azure
+- canonical: Azure Kubernetes Service
+  category: cloud
+  aliases:
+  - aks
+  parent: Azure
+- canonical: Google Kubernetes Engine
+  category: cloud
+  aliases:
+  - gke
+  parent: GCP
+- canonical: Google Cloud Functions
+  category: cloud
+  aliases:
+  - cloud functions
+  parent: GCP
+- canonical: Google Cloud Storage
+  category: cloud
+  aliases:
+  - gcs
+  parent: GCP
+- canonical: Agile
+  category: methodology
+  aliases:
+  - méthode agile
+  - méthodes agiles
+  - agilité
+  - agile methoden
+  parent: null
+- canonical: Scrum
+  category: methodology
+  aliases:
+  - scrum master
+  - méthode scrum
+  parent: Agile
+- canonical: Kanban
+  category: methodology
+  aliases: []
+  parent: null
+- canonical: SAFe
+  category: methodology
+  aliases:
+  - scaled agile framework
+  parent: Agile
+- canonical: CI/CD
+  category: methodology
+  aliases:
+  - ci cd
+  - ci/cd
+  - continuous integration
+  - continuous deployment
+  - continuous delivery
+  - intégration continue
+  - déploiement continu
+  - livraison continue
+  - ci
+  - cd
+  parent: null
+- canonical: Test-Driven Development
+  category: methodology
+  aliases:
+  - tdd
+  - développement piloté par les tests
+  parent: null
+- canonical: Behavior-Driven Development
+  category: methodology
+  aliases:
+  - bdd
+  parent: null
+- canonical: ITIL
+  category: methodology
+  aliases: []
+  parent: null
+- canonical: Lean
+  category: methodology
+  aliases:
+  - lean management
+  parent: null
+- canonical: Six Sigma
+  category: methodology
+  aliases: []
+  parent: null
+- canonical: Waterfall
+  category: methodology
+  aliases:
+  - cycle en v
+  - méthode en cascade
+  parent: null
+- canonical: Design Sprint
+  category: methodology
+  aliases: []
+  parent: null
+- canonical: Pair Programming
+  category: methodology
+  aliases:
+  - programmation en binôme
+  parent: null
+- canonical: Code Review
+  category: methodology
+  aliases:
+  - revue de code
+  - revues de code
+  parent: null
+- canonical: DevSecOps
+  category: methodology
+  aliases:
+  - dev sec ops
+  parent: null
+- canonical: GitOps
+  category: methodology
+  aliases:
+  - git ops
+  parent: null
+- canonical: Extreme Programming
+  category: methodology
+  aliases:
+  - xp
+  parent: null
+- canonical: OKRs
+  category: methodology
+  aliases:
+  - okr
+  - objectives and key results
+  parent: null
+- canonical: Design Thinking
+  category: methodology
+  aliases:
+  - conception centrée utilisateur
+  parent: null
+- canonical: DevOps
+  category: domain
+  aliases:
+  - dev ops
+  - équipe devops
+  - culture devops
+  parent: null
+- canonical: Site Reliability Engineering
+  category: domain
+  aliases:
+  - sre
+  - ingénieur fiabilité site
+  parent: null
+- canonical: Data Engineering
+  category: domain
+  aliases:
+  - ingénierie des données
+  - ingénieur data
+  - data engineer
+  - data engineering engineer
+  - ingénieur data engineering
+  parent: null
+- canonical: Data Science
+  category: domain
+  aliases:
+  - science des données
+  - data scientist
+  - data science consultant
+  - data science manager
+  - scientifique des données
+  parent: null
+- canonical: Machine Learning
+  category: domain
+  aliases:
+  - ml
+  - apprentissage automatique
+  - apprentissage machine
+  - machine learning engineer
+  - ml engineer
+  parent: null
+- canonical: Deep Learning
+  category: domain
+  aliases:
+  - dl
+  - apprentissage profond
+  parent: null
+- canonical: Artificial Intelligence
+  category: domain
+  aliases:
+  - ai
+  - ia
+  - intelligence artificielle
+  - ai engineer
+  - ia engineer
+  - ingénieur ia
+  - ki
+  - applied ai
+  parent: null
+- canonical: Generative AI
+  category: domain
+  aliases:
+  - gen ai
+  - genai
+  - ia générative
+  - intelligence artificielle générative
+  - ai-generated code
+  parent: Artificial Intelligence
+- canonical: Large Language Models
+  category: domain
+  aliases:
+  - llm
+  - llms
+  - grands modèles de langage
+  parent: Artificial Intelligence
+- canonical: Retrieval-Augmented Generation
+  category: domain
+  aliases:
+  - rag
+  - génération augmentée par récupération
+  parent: Large Language Models
+- canonical: Agentic AI
+  category: domain
+  aliases:
+  - ai agents
+  - agents ia
+  - agentic
+  - agentic workflows
+  parent: Artificial Intelligence
+- canonical: Prompt Engineering
+  category: domain
+  aliases:
+  - ingénierie de prompt
+  - prompt design
+  parent: Artificial Intelligence
+- canonical: Natural Language Processing
+  category: domain
+  aliases:
+  - nlp
+  - traitement du langage naturel
+  - tal
+  parent: Artificial Intelligence
+- canonical: Computer Vision
+  category: domain
+  aliases:
+  - vision par ordinateur
+  - vision artificielle
+  parent: Artificial Intelligence
+- canonical: MLOps
+  category: domain
+  aliases:
+  - ml ops
+  parent: null
+- canonical: Big Data
+  category: domain
+  aliases:
+  - mégadonnées
+  - grosses données
+  parent: null
+- canonical: Data Visualization
+  category: domain
+  aliases:
+  - visualisation de données
+  - dataviz
+  parent: null
+- canonical: Data Analysis
+  category: domain
+  aliases:
+  - data analytics
+  - analytics
+  - analyse de donn?es
+  parent: null
+- canonical: Business Intelligence
+  category: domain
+  aliases:
+  - bi
+  - informatique décisionnelle
+  parent: null
+- canonical: ETL
+  category: domain
+  aliases:
+  - extract transform load
+  - extraction transformation chargement
+  parent: null
+- canonical: ELT
+  category: domain
+  aliases: []
+  parent: null
+- canonical: Data Warehousing
+  category: domain
+  aliases:
+  - entrepôt de données
+  - data warehouse
+  parent: null
+- canonical: Data Governance
+  category: domain
+  aliases:
+  - gouvernance des données
+  parent: null
+- canonical: Cloud Computing
+  category: domain
+  aliases:
+  - informatique en nuage
+  - informatique en cloud
+  - cloud
+  - cloud-native
+  - cloud native
+  parent: null
+- canonical: FinOps
+  category: domain
+  aliases:
+  - fin ops
+  parent: null
+- canonical: Cybersecurity
+  category: domain
+  aliases:
+  - cybersécurité
+  - sécurité informatique
+  - sécurité des systèmes d'information
+  parent: null
+- canonical: Penetration Testing
+  category: domain
+  aliases:
+  - pentest
+  - test d'intrusion
+  - tests d'intrusion
+  parent: Cybersecurity
+- canonical: Network Engineering
+  category: domain
+  aliases:
+  - ingénierie réseau
+  - administration réseau
+  parent: null
+- canonical: Software Engineering
+  category: domain
+  aliases:
+  - software development
+  - software engineer
+  - ing?nierie logicielle
+  - d?veloppement logiciel
+  parent: null
+- canonical: Backend Development
+  category: domain
+  aliases:
+  - développement backend
+  - développement back-end
+  - backend
+  - back-end
+  parent: null
+- canonical: Frontend Development
+  category: domain
+  aliases:
+  - développement frontend
+  - développement front-end
+  - frontend
+  - front-end
+  parent: null
+- canonical: Full Stack Development
+  category: domain
+  aliases:
+  - fullstack
+  - full-stack
+  - développement full stack
+  parent: null
+- canonical: Mobile Development
+  category: domain
+  aliases:
+  - développement mobile
+  - développement d'applications mobiles
+  parent: null
+- canonical: Embedded Systems
+  category: domain
+  aliases:
+  - systèmes embarqués
+  - informatique embarquée
+  - embedded systemen
+  parent: null
+- canonical: Low-Code Development
+  category: domain
+  aliases:
+  - low-code
+  - no-code
+  - low code
+  - no code
+  parent: null
+- canonical: Quality Assurance
+  category: domain
+  aliases:
+  - qa
+  - assurance qualité
+  - recette
+  - tests logiciels
+  - tests unitaires
+  parent: null
+- canonical: Database Administration
+  category: domain
+  aliases:
+  - administration de bases de données
+  - dba
+  parent: null
+- canonical: IT Project Management
+  category: domain
+  aliases:
+  - gestion de projet informatique
+  - chef de projet informatique
+  - chef de projet si
+  parent: null
+- canonical: Product Management
+  category: domain
+  aliases:
+  - gestion de produit
+  - product owner
+  - product owner
+  parent: null
+- canonical: UX/UI Design
+  category: domain
+  aliases:
+  - ux design
+  - ui design
+  - expérience utilisateur
+  - interface utilisateur
+  parent: null
+- canonical: Enterprise Architecture
+  category: domain
+  aliases:
+  - architecture d'entreprise
+  - urbanisation des systèmes d'information
+  parent: null
+- canonical: Solution Architecture
+  category: domain
+  aliases:
+  - architecte solution
+  - architecture logicielle
+  parent: null
+- canonical: Robotic Process Automation
+  category: domain
+  aliases:
+  - rpa
+  - automatisation des processus
+  parent: null
+- canonical: Blockchain
+  category: domain
+  aliases:
+  - chaîne de blocs
+  parent: null
+- canonical: Internet of Things
+  category: domain
+  aliases:
+  - iot
+  - internet des objets
+  parent: null
+- canonical: Digital Transformation
+  category: domain
+  aliases:
+  - transformation digitale
+  - transformation numérique
+  parent: null
+- canonical: Information Systems
+  category: domain
+  aliases:
+  - systèmes d'information
+  - système d'information
+  parent: null
+- canonical: IT Infrastructure
+  category: domain
+  aliases:
+  - infrastructure it
+  - infrastructure informatique
+  parent: null
+- canonical: SEO
+  category: domain
+  aliases:
+  - référencement naturel
+  - search engine optimization
+  parent: null
+- canonical: Digital Marketing
+  category: domain
+  aliases:
+  - marketing digital
+  - marketing numérique
+  parent: null
+- canonical: Data Modeling
+  category: domain
+  aliases:
+  - modélisation de données
+  - modélisation des données
+  parent: null
+- canonical: Data Quality
+  category: domain
+  aliases:
+  - qualité des données
+  parent: null
+- canonical: Master Data Management
+  category: domain
+  aliases:
+  - mdm
+  - gestion des données de référence
+  parent: null
+- canonical: API Design
+  category: domain
+  aliases:
+  - conception d'api
+  - api rest
+  - rest api
+  - restful api
+  - apis restful
+  - rest apis
+  - restful apis
+  parent: null
+- canonical: Microservices Architecture
+  category: domain
+  aliases:
+  - microservices
+  - architecture microservices
+  parent: null
+- canonical: Event-Driven Architecture
+  category: domain
+  aliases:
+  - architecture événementielle
+  - event driven
+  parent: null
+- canonical: Platform Engineering
+  category: domain
+  aliases:
+  - ingénierie de plateforme
+  parent: null
+- canonical: E-commerce
+  category: domain
+  aliases:
+  - ecommerce
+  - commerce électronique
+  - vente en ligne
+  parent: null
+- canonical: Fintech
+  category: domain
+  aliases:
+  - technologie financière
+  parent: null
+- canonical: GDPR Compliance
+  category: domain
+  aliases:
+  - gdpr
+  - rgpd
+  - conformité rgpd
+  parent: null
+- canonical: Observability
+  category: domain
+  aliases:
+  - observabilité
+  parent: null
+- canonical: Supply Chain Management
+  category: domain
+  aliases:
+  - gestion de la chaîne logistique
+  - supply chain
+  parent: null
+- canonical: Financial Analysis
+  category: domain
+  aliases:
+  - analyse financière
+  parent: null
+- canonical: Payment Systems
+  category: domain
+  aliases:
+  - systèmes de paiement
+  - moyens de paiement
+  parent: null
+- canonical: Technical Leadership
+  category: soft_skill
+  aliases:
+  - leadership technique
+  - encadrement technique
+  parent: null
+- canonical: Mentoring
+  category: soft_skill
+  aliases:
+  - mentorat
+  - accompagnement de juniors
+  parent: null
+- canonical: Stakeholder Management
+  category: soft_skill
+  aliases:
+  - gestion des parties prenantes
+  parent: null
+- canonical: Technical Writing
+  category: soft_skill
+  aliases:
+  - rédaction technique
+  - documentation technique
+  parent: null
+- canonical: Cross-functional Collaboration
+  category: soft_skill
+  aliases:
+  - collaboration transverse
+  - travail transverse
+  parent: null
+- canonical: Client Relationship Management
+  category: soft_skill
+  aliases:
+  - relation client
+  - gestion de la relation client
+  parent: null
+- canonical: Change Management
+  category: soft_skill
+  aliases:
+  - conduite du changement
+  - gestion du changement
+  parent: null
+- canonical: Public Speaking
+  category: soft_skill
+  aliases:
+  - prise de parole en public
+  parent: null
+- canonical: Negotiation
+  category: soft_skill
+  aliases:
+  - négociation
+  parent: null
+- canonical: Team Management
+  category: soft_skill
+  aliases:
+  - management d'équipe
+  - encadrement d'équipe
+  - gestion d'équipe
+  parent: null
+- canonical: Requirements Gathering
+  category: soft_skill
+  aliases:
+  - recueil des besoins
+  - expression de besoins
+  parent: null
+- canonical: Agile Coaching
+  category: soft_skill
+  aliases:
+  - coaching agile
+  parent: null
+- canonical: Conflict Resolution
+  category: soft_skill
+  aliases:
+  - résolution de conflits
+  - gestion des conflits
+  parent: null
+- canonical: Vendor Management
+  category: soft_skill
+  aliases:
+  - gestion des fournisseurs
+  - gestion des prestataires
+  parent: null
+
+# Networking, security, and infrastructure vocabulary. These terms are explicitly
+# present in the live job corpus and are kept separate so CV extraction and job
+# enrichment use the same canonical skills.
+- canonical: TCP/IP
+  category: domain
+  aliases:
+  - tcp ip
+  - tcp/ip stack
+  parent: Network Engineering
+- canonical: BGP
+  category: domain
+  aliases:
+  - border gateway protocol
+  parent: Network Engineering
+- canonical: OSPF
+  category: domain
+  aliases:
+  - open shortest path first
+  parent: Network Engineering
+- canonical: EIGRP
+  category: domain
+  aliases:
+  - enhanced interior gateway routing protocol
+  parent: Network Engineering
+- canonical: SD-WAN
+  category: domain
+  aliases:
+  - sd wan
+  - software-defined wan
+  - software defined wan
+  parent: Network Engineering
+- canonical: DNS
+  category: domain
+  aliases:
+  - domain name system
+  parent: Network Engineering
+- canonical: DHCP
+  category: domain
+  aliases:
+  - dynamic host configuration protocol
+  parent: Network Engineering
+- canonical: VPN
+  category: domain
+  aliases:
+  - virtual private network
+  - ipsec vpn
+  - ssl vpn
+  parent: Network Engineering
+- canonical: Firewalls
+  category: tool
+  aliases:
+  - firewall
+  - network firewall
+  parent: Cybersecurity
+- canonical: IDS/IPS
+  category: tool
+  aliases:
+  - ids
+  - ips
+  - intrusion detection system
+  - intrusion prevention system
+  parent: Cybersecurity
+- canonical: Access Control Lists
+  category: domain
+  aliases:
+  - acl
+  - acls
+  - access control list
+  parent: Network Engineering
+- canonical: Load Balancing
+  category: domain
+  aliases:
+  - load balancer
+  - load balancers
+  parent: Network Engineering
+- canonical: Routing
+  category: domain
+  aliases:
+  - network routing
+  parent: Network Engineering
+- canonical: Switching
+  category: domain
+  aliases:
+  - network switching
+  parent: Network Engineering
+- canonical: VLAN
+  category: domain
+  aliases:
+  - vlans
+  - virtual lan
+  - virtual lans
+  parent: Network Engineering
+- canonical: MPLS
+  category: domain
+  aliases:
+  - multiprotocol label switching
+  parent: Network Engineering
+- canonical: NAT
+  category: domain
+  aliases:
+  - network address translation
+  parent: Network Engineering
+- canonical: LAN/WAN
+  category: domain
+  aliases:
+  - lan
+  - wan
+  - local area network
+  - wide area network
+  parent: Network Engineering
+- canonical: Cisco Networking
+  category: platform
+  aliases:
+  - cisco networking
+  - cisco routers and switches
+  parent: Network Engineering
+- canonical: Cisco ASA
+  category: platform
+  aliases:
+  - cisco adaptive security appliance
+  - cisco asa firewall
+  parent: Cybersecurity
+- canonical: Palo Alto Networks
+  category: platform
+  aliases:
+  - palo alto
+  - palo alto firewall
+  - panorama
+  parent: Cybersecurity
+- canonical: Fortinet
+  category: platform
+  aliases:
+  - fortigate
+  - forti gate
+  parent: Cybersecurity
+- canonical: AWS VPC
+  category: cloud
+  aliases:
+  - amazon vpc
+  - vpc
+  - virtual private cloud
+  parent: Cloud Computing
+- canonical: Azure Virtual Network
+  category: cloud
+  aliases:
+  - azure vnet
+  - azure vnetworks
+  - vnet
+  parent: Azure
+- canonical: Active Directory
+  category: platform
+  aliases:
+  - microsoft active directory
+  parent: IT Infrastructure
+- canonical: Network Monitoring
+  category: domain
+  aliases:
+  - network monitoring tools
+  - network performance monitoring
+  parent: IT Infrastructure
+- canonical: SIEM
+  category: tool
+  aliases:
+  - security information and event management
+  parent: Cybersecurity
+- canonical: Zero Trust
+  category: domain
+  aliases:
+  - zero trust security
+  - zero trust architecture
+  parent: Cybersecurity
